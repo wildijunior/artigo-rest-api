@@ -1,0 +1,27 @@
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  margin-bottom: 120px;
+}
+
+.nav-link {
+  color: black !important;
+  transition: 1.5s color;
+}
+
+.nav-link:hover {
+  color: rgba(0,0,0,.55) !important;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #FEC260 !important;
+}
+
+
